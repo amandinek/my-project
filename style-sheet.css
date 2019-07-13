@@ -1,5 +1,8 @@
+body{
+    position: relative;}
+
 .header{
-    background-image: url("https://images.unsplash.com/photo-1556812756-2a82d0dd9e61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-image: url("https://images.unsplash.com/photo-1482440308425-276ad0f28b19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
     background-size: cover;
     width:100%;
     height:650px;
@@ -9,15 +12,22 @@
 #navigations{text-align: top;
     color: #b8bdbd;
     text-transform: uppercase;
-    font-size:25px;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 
 }
+nav>ul>li>a:hover {
+
+    background:#b8bdbd;
+    color:black;
+    }
 .heading{
     text-align:center;
-    color: #ebf0f0; 
+    color: white; 
     padding-top:200px;
     padding-left: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 .heading>p{ font-size: 32px;
@@ -46,18 +56,14 @@ nav{
   color:white;
   }
   .about>h1{
-    background-color: #b8bdbd; 
+    background-color:#ebf0f0;; 
     margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .about{
       text-align: center;
       
   }
-  /*nav>ul>li>a:hover {
-  
-  background:pink;
-  color:black;
-  }*/
   .image>img{
       border-radius: 50%;
       width:240px;
@@ -78,7 +84,7 @@ nav{
   }
   .pro>h1{
       text-align: center;
-      background-color: #b8bdbd; 
+      background-color: #ebf0f0;; 
       margin:0;
   }
   .form{
@@ -98,11 +104,10 @@ nav{
    box-sizing: border-box; 
    margin-top: 6px; 
    margin-bottom: 16px; 
-   resize: vertical 
  }
  .contact>h1{
     text-align: center;
-    background-color: #b8bdbd; 
+    background-color: #ebf0f0;; 
     margin:0;
 }
  
@@ -110,7 +115,7 @@ nav{
   footer{
     padding:25px;
     top:0;
-    background-color:#D3D3D3;
+    background-color:#ebf0f0;;
     border: 5px;
     text-align:center;
     font-size:15px;
