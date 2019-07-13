@@ -1,5 +1,6 @@
 # portfolio
-## By Karambizi Amandine Gloria
+### Author
+By Karambizi Amandine Gloria
 #### Description
 This a website that tell who I am and what I do all my skills and all I like and everything you want to know about me.
 Also this website contain some of the projects I worked on  
