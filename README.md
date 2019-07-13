@@ -2,7 +2,7 @@
 ### Author
  Karambizi Amandine Gloria
 #### Description
-This a website that tell who I am and what I do all my skills and all I like and everything you want to know about me.
+This is a website that tells who I am, what I do, all my skills, all I like and everything you want to know about me.
 Also this website contain some of the projects I worked on  
 #### Technologies Used
 To do this projrct I used css and html.
