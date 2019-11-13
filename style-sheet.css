@@ -2,7 +2,7 @@ body{
     position: relative;}
 
 .header{
-    background-image: url("https://images.unsplash.com/photo-1482440308425-276ad0f28b19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-image: url("https://images.wallpaperscraft.com/image/eyes_doodles_art_127935_1280x960.jpg");
     background-size: cover;
     width:100%;
     height:650px;
@@ -10,7 +10,7 @@ body{
     
 }
 #navigations{text-align: top;
-    color: #b8bdbd;
+    color: black;
     text-transform: uppercase;
     font-size:20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,27 +19,28 @@ body{
 }
 nav>ul>li>a:hover {
 
-    background:#b8bdbd;
-    color:black;
+    background:black;
+    color:rgb(238, 235, 235);
     }
 .heading{
     text-align:center;
     color: white; 
-    padding-top:200px;
+    padding-top:300px;
     padding-left: 70px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
-.heading>p{ font-size: 32px;
+.heading>p{ font-size: 20px;
 
 }
 
 nav{
-    padding-top:0;
-    margin-left:0;
+     padding-top:0;
+    margin-left:0; 
     position: static;
     top:0;
-    color: #b8bdbd; 
+    color: black; 
+    background-color: white;
 }
    nav>ul{
     text-align:left;
@@ -53,29 +54,29 @@ nav{
   text-transform: uppercase;
   text-decoration: none;
   display: block;
-  color:white;
+  color:rgb(5, 5, 5);
   }
   .about>h1{
-    background-color:#ebf0f0;; 
+    background-color:white; 
     margin:0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .about{
-      text-align: center;
+    padding-left: 70px;
       
   }
-  .image>img{
+  /* .image>img{
       border-radius: 50%;
       width:240px;
       height: 250px;
-  }
+  } */
     
   .onme{
-      text-align: center;
-      padding-left: 200px;
-      padding-right: 200px;
+      /* text-align: center; */
+      padding-left: 300px;
+      /* padding-right: 200px; */
   }
-  .list{
+  .list,.list2,.laguage1,.language2{
       display: flex;
       flex-direction: row;
       justify-content: space-around;
@@ -86,6 +87,12 @@ nav{
       text-align: center;
       background-color: #ebf0f0;; 
       margin:0;
+  }
+  .pro{
+      background-color: black;
+  }
+  .language{
+    background-color: black;
   }
   .form{
     border:solid white;
@@ -115,7 +122,8 @@ nav{
   footer{
     padding:25px;
     top:0;
-    background-color:#ebf0f0;;
+    background-color:black;
+    color: white;
     border: 5px;
     text-align:center;
     font-size:15px;
