@@ -8,6 +8,7 @@ Also this website contain some of the projects I worked on
 To do this projrct I used css and html.
 #### Support and contact details
 I did this project with the help of my TM and classmates
+This is a link to my project: https://amandinek.github.io/my-project/
 #### License
 Copyright (c) 2019 Karambizi Amandine Gloria
   
