@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel ="stylesheet" type= "text/css" href="style-sheet.css">
     <title>Document</title>
+    <script   src="../js/jquery-3.4.1.js"></script>
+    <script src="js/js.js"></script>
+    <link rel ="stylesheet" type= "text/css" href="style-sheet.css">
 </head>
 <body>
         <section id="home" data section="home">
@@ -18,14 +20,12 @@
                                     <li>
                                         <a href="#home" >Home</a>
                                     </li>
-                                    <li>
-                                        <a href="#about">About</a>
-                                    </li>
-                                    <li>
-                                        <a href="#about">Skills</a>
-                                    </li>
+                                
                                     <li>
                                         <a href="#projects">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="#skills">Skills</a>  
                                     </li>
                                     <li>
                                         <a href="#contact">Contact</a>
@@ -45,21 +45,59 @@
    
 </section>           
          
-    <section id="about" data-section="about">
+    <!-- <section id="about" data-section="about">
         <div class="me">
             <div class="about">
                     <h1>About me</h1>
-                    <!-- <div class="image">
+                    <div class="image">
                         <img src="https://images.unsplash.com/photo-1477724902304-4d75535625a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
-                    </div> -->
+                    </div>
             </div>
             <div class="onme">
                 <p>My name is KARAMBIZI Amandine Gloria
-                <p>I am a Android Developer Also I have skills in JavaScript,Angular and Java </p>                
+                <p>I am a Android Developer Also I have skills in JavaScript,Angular and Java </p> 
+                <p> I develop both android App and website</p>              
             </div>
         </div>
+    </section> -->
+    <section id="projects" data-section="projects">
+        <div class="pro">
+            <h1>My work</h1>
+            <p>
+                
+                    <div class="list">
+                        <div class="card">
+                            <div>
+                          <a href=" https://amandinek.github.io/pizzaApp/"><img id="img1" src="images/pizza.jpg" width="300px" height="300px" ></a><br>
+                        <div class="container">
+                              <p>Pizza odering App</p>
+                        </div>  
+                              <p id="p1">This app helps you to oder pizza and see the total proce of the money you will spens </p>
+                        
+                           </div>
+                        </div>
+                        <div class="card">
+                         <a href=" https://amandinek.github.io/citations/"><img id="img2" src="images/cite.png"width="300px" height="300px"></a><br>
+                         <div class="container"><p>Quote generating web</p></div>
+                         <p id="p2">This app helps to generate cote and you can be able to delete or like them</p>
+                    </div> <br> <br>
+                    <div class="list2"> 
+                       <div class="card"> 
+                         <a href="  https://amandinek.github.io/gitsearch/"><img id="img3" src="images/Gitsearch.png"width="300px" height="300px"></a>
+                         <div class="container"><p>A repliqua of github</p></div>
+                         <p id="p3">This app helps you seach github users and you can get their repositories </p>
+                       </div>
+                       <div class="card"> 
+                        <a href=" https://animaltracker1.herokuapp.com/"><img id="img4" src="images/Wildlife tracker.png"width="300px" height="300px"></a><br>
+                        <div class="container"><p>Animal tracking App</p></div>
+                        <p id="p4">This app helps you to track animals and record them </p>
+                      </div>
+                   </div>
+                
+            </p>
+        </div>
     </section>
-    <section id="Skills">
+    <section id="skills">
         
         <div class="language">
                 <h1>Programming languages</h1><br>
@@ -88,37 +126,7 @@
             </div>            
         </div>
     </section><br> <br>
-    <section id="projects" data-section="projects">
-        <div class="pro">
-            <h1>This is my work</h1>
-            <p>
-                
-                    <div class="list">
-                        <div class="card">
-                            <div>
-                          <a href=" https://amandinek.github.io/pizzaApp/"><img src="images/pizza.jpg" width="300px" height="300px" ></a><br>
-                          <div class="container"><p>Pizza odering App</p></div>
-                           </div>
-                        </div>
-                        <div class="card">
-                         <a href=" https://amandinek.github.io/citations/"><img src="images/cite.png"width="300px" height="300px"></a><br>
-                         <div class="container"><p>Quote generating web</p></div>
-                       </div>
-                    </div> <br> <br>
-                    <div class="list2"> 
-                       <div class="card"> 
-                         <a href="  https://amandinek.github.io/gitsearch/"><img src="images/Gitsearch.png"width="300px" height="300px"></a>
-                         <div class="container"><p>A repliqua of github</p></div>
-                       </div>
-                       <div class="card"> 
-                        <a href=" https://animaltracker1.herokuapp.com/"><img src="images/Wildlife tracker.png"width="300px" height="300px"></a><br>
-                        <div class="container"><p>Animal tracking App</p></div>
-                      </div>
-                   </div>
-                
-            </p>
-        </div>
-    </section>
+
     <section id="contact" data-section="contact">
         <div class="contact">
           <h1>Contact me</h1>
@@ -145,10 +153,12 @@
     </section>
   </div>
   <footer>
-        <p><img src="https://img.icons8.com/ios/16/000000/copyright.png">2019 by Karambizi Amandine Gloria.</p>
+        
          <a href="https://github.com/amandinek"><img src="https://img.icons8.com/material-rounded/24/000000/github.png"></a>
          <a href="https://www.linkedin.com/in/amandine-karambizi-0a37b4159/"><img src="https://img.icons8.com/android/24/000000/linkedin.png"></a>
-         <!-- <a href="https://www.instagram.com/k_ag_24/"><img src="https://img.icons8.com/ios-glyphs/24/000000/instagram-new.png"></a> -->
+         <a href="https://mail.google.com/gmail"><img src="https://img.icons8.com/material/24/000000/gmail--v1.png"></a>
+         <p><img src="https://img.icons8.com/ios/16/000000/copyright.png">2019 by Karambizi Amandine Gloria.</p>
   </footer>
+  
 </body>
 </html>

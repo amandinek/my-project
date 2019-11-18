@@ -9,7 +9,8 @@ body{
     margin:0;
     
 }
-#navigations{text-align: top;
+#navigations{
+    text-align: top;
     color: black;
     text-transform: uppercase;
     font-size:20px;
@@ -35,7 +36,7 @@ nav>ul>li>a:hover {
 }
 
 nav{
-     padding-top:0;
+    padding-top:0;
     margin-left:0; 
     position: static;
     top:0;
@@ -47,6 +48,7 @@ nav{
   }
  nav>ul>li{
     display:inline-block;
+      margin-right:200px;
   }
   nav>ul>li>a {
   padding:6px;
@@ -152,4 +154,30 @@ nav{
   
   .container {
     padding: 2px 16px;
+  }
+  #img1,#img2,#img3,#img4{
+    position: relative;
+  }
+  #p1,#p2,#p3,#p4{
+    top:90px;
+  left:79px;
+  background-color: transparent;
+  display:none;
+  font-size: 1em;
+  top:15px;
+  left:10px;
+  background-color: #000000;
+  opacity:0.8;
+  color: #F2F2F2;
+  border: 1px solid#f2f2f2;
+  /* border-radius: 50%; */
+  width:78%;
+  height:90%;
+  font-size: 1.1em;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top:4%;
+  border-width: medium;
+  margin-left: 7%;
+  text-align: center;
   }
