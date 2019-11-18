@@ -155,7 +155,7 @@ nav{
   .container {
     padding: 2px 16px;
   }
-  #img1,#img2,#img3,#img4{
+  /* #img1,#img2,#img3,#img4{
     position: relative;
   }
   #p1,#p2,#p3,#p4{
@@ -170,7 +170,7 @@ nav{
   opacity:0.8;
   color: #F2F2F2;
   border: 1px solid#f2f2f2;
-  /* border-radius: 50%; */
+  border-radius: 50%;
   width:78%;
   height:90%;
   font-size: 1.1em;
@@ -180,4 +180,4 @@ nav{
   border-width: medium;
   margin-left: 7%;
   text-align: center;
-  }
+  } */
